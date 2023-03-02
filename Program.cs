@@ -33,17 +33,17 @@ namespace workshopweek4
                         }
                         else
                         {
-                            Console.Write("Flase");
+                            Console.Write("False");
                         }
                     }
                     else
                     {
-                        Console.Write("Flase");
+                        Console.Write("False");
                     }
                 }
                 else
                 {
-                    Console.Write("Flase");
+                    Console.Write("False");
                 }
             }
 
@@ -59,24 +59,24 @@ namespace workshopweek4
                         }
                         else
                         {
-                            Console.Write("Flase");
+                            Console.Write("False");
                         }
                     }
                     else
                     {
-                        Console.Write("Flase");
+                        Console.Write("False");
                     }
                 }
                 else
                 {
-                    Console.Write("Flase");
+                    Console.Write("False");
                 }
             }
 
             else if (agency == "NSA")
             {
 
-                if (pass_1 != 4 && pass_1 != 7 && pass_1 != 8)
+                if (pass_1 != 4 && pass_1 != 7 && pass_1 != 8 && pass_1 != 9)
                 {
                     if (pass_3 == 3 || pass_3 == 9)
                     {
@@ -86,22 +86,22 @@ namespace workshopweek4
                         }
                         else
                         {
-                            Console.Write("Flase");
+                            Console.Write("False");
                         }
                     }
                     else
                     {
-                        Console.Write("Flase");
+                        Console.Write("False");
                     }
                 }
                 else
                 {
-                    Console.Write("Flase");
+                    Console.Write("False");
                 }
             }
             else
             {
-                Console.Write("Flase");
+                Console.Write("False");
             }
         }
     }
